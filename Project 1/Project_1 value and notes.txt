@@ -1,0 +1,32 @@
+jacks and queens = 10
+ace, 2-10 = face value
+king = 0
+
+hold = number that is drawn from deck
+player gets 4 cards
+Each ace counts 1 point.
+Each 2 counts minus 2 points.
+Each numeral card from 3 to 10 scores face value.
+Each jack or queen scores 10 points.
+Each king scores zero points.
+A pair of equal cards in the same column scores zero points for the column (even if the equal cards are 2s).
+
+randomly chooses card value for both players
+enters while loop until nine deals (deals == 9) deals++ or until knock (if statement) player1 knocks == player2 knock
+ask first player to see their card.
+asks the user which card to see. (switch statement)
+ask second player to see their card.
+ask user which card to see (switch statement)
+ask first player to swap card (if statement) if user does not swap deck 
+user draws card from deck. deck - 1 (random number)
+card is displayed to user
+user enters which card to swap (switch statment) 
+ask user to swap card. card value enters for loop(for loop). And this for loop is in a while loop(whileloop) that stops when it is done
+asks user if they want to knock (if statement) deals = 8
+ask second player to swap card (if statement)
+user draws card from deck. deck - 1
+user enters which card to swap (switch statement)
+ask user to swap card. card value enters for loop. And this for loop is in a while loop that stops when it is done
+asks user if they want to knock (if statement) deals = 8
+
+at the end saves results to a file.
